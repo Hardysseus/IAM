@@ -1,0 +1,21 @@
+/*
+
+Internetanwendungen für mobile Geräte
+SS 2014
+
+René Rose
+info@rundwerk.de
+
+Marcel Wallbaum
+marcel.wallbaum@gmail.com
+
+*/
+
+/* Reset all */
+@import "src/reset.css";
+
+/* Globals */
+@import "src/globals.css";
+
+/* Fine-Styles */
+@import "src/content.css";
