@@ -5,29 +5,26 @@ $break-mobile-portrait: 460px;
 $break-mobile-landscape: 768px;
 $break-tablet-portrait: 1024px;
 $break-desktop: 1200px;
-/*$break-widescreen: 2000px;*/
 
 
-/**** WebfontIcons Modifications */
-@font-face {
-  font-family: 'icon';
-  font-style: normal;
-  font-weight: normal;
-  src: local('icon'), url('fonts/entypo.woff') format('woff'), url("fonts/entypo.ttf") format("truetype"), url("fonts/entypo.svg#PTSans-Bold") format("svg");
+
+@font-face
+{
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Light.ttf");
+  font-weight: lighter;
 }
 
-// Fonts
-$fontIconFontFamily: 'icon',Helvetica,'Arial, sans-serif';
+@font-face
+{
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Bold.ttf");
+  font-weight: bold;
+}
 
-// Functionality
-$fontIconCollection: (
-          ('ffwd','\f009') // BaseConfig, Collection braucht mindestens 2 Fields
-          ('calendar','\f025')
-        );
-
-
-// Settings (font-Size in rem, Color)
-$black12: (1.2,$Black);
-$black20: (2,$Black);
-$black26: (2.6,$Black);
-$black40: (4,$Black);
+@font-face
+{
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Regular.ttf");
+  font-weight: normal;
+}

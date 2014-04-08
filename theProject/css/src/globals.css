@@ -1,170 +1,113 @@
-@charset "CP850";
-/*################################################################################################*/
 /*
-/*  BASIC CHROME - RAHMENLAYOUT
-/*  
-/*################################################################################################*/
-/*** Compass Mixins */
-/* line 17, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
+Syntax error: Undefined operation: "strip-unit(1.3) times 10".
+        on line 17 of B:/studium/semester_8/IAM/theProject/css/sass/snmmixins/_common.scss, in `rem-fallback'
+        from line 34 of B:/studium/semester_8/IAM/theProject/css/sass/globals.scss
 
-/* line 22, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/*** Configuration */
-/* Configuration */
-/*** RESPONSIVE */
-/*$break-widescreen: 2000px;*/
-/**** WebfontIcons Modifications */
-@font-face {
-  font-family: 'icon';
-  font-style: normal;
-  font-weight: normal;
-  src: local("icon"), url("fonts/entypo.woff") format("woff"), url("fonts/entypo.ttf") format("truetype"), url("fonts/entypo.svg#PTSans-Bold") format("svg");
-}
-
-/*
-
-Internetanwendungen für mobile Geräte
-SS 2014
-
-René Rose
-info@rundwerk.de
-
-Marcel Wallbaum
-marcel.wallbaum@gmail.com
-
+Backtrace:
+B:/studium/semester_8/IAM/theProject/css/sass/snmmixins/_common.scss:17:in `rem-fallback'
+B:/studium/semester_8/IAM/theProject/css/sass/globals.scss:34
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/operation.rb:92:in `rescue in _perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/operation.rb:88:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/operation.rb:82:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/interpolation.rb:72:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:327:in `visit_variable'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:188:in `block (3 levels) in visit_for'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:188:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:188:in `block (2 levels) in visit_for'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:185:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:185:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:185:in `block in visit_for'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:184:in `visit_for'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:268:in `block (3 levels) in visit_mixin'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:268:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:268:in `block (2 levels) in visit_mixin'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:268:in `block in visit_mixin'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:70:in `perform_arguments'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:263:in `visit_mixin'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:44:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+C:/Ruby200/bin/compass:23:in `load'
+C:/Ruby200/bin/compass:23:in `<main>'
 */
-/* Ressources */
-@font-face {
-  font-family: "Nunito";
-  src: url("../fonts/Nunito-Light.ttf");
-  font-weight: lighter;
-}
-
-@font-face {
-  font-family: "Nunito";
-  src: url("../fonts/Nunito-Bold.ttf");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Nunito";
-  src: url("../fonts/Nunito-Regular.ttf");
-  font-weight: normal;
-}
-
-/* Structure Elements */
-/* line 54, ../sass/globals.scss */
-html {
-  font-size: 62.5%;
-}
-
-/* line 58, ../sass/globals.scss */
-body {
-  background-color: grey;
-  width: 100%;
-  font-size: 13px;
-  font-size: 1.3rem;
-  font-family: "Nunito";
-}
-
-/* line 66, ../sass/globals.scss */
-body > header {
-  width: 100%;
-}
-
-/* line 70, ../sass/globals.scss */
-#breadcrumb {
-  background-color: #000000;
-  width: 100%;
-}
-
-/* line 78, ../sass/globals.scss */
-main {
-  float: left;
-}
-
-/* line 82, ../sass/globals.scss */
-body > aside {
-  float: right;
-}
-
-/* line 86, ../sass/globals.scss */
-body > footer {
-  background-color: #000000;
-  width: 100%;
-}
-
-/* line 91, ../sass/globals.scss */
-h1 {
-  font-size: 24px;
-  font-size: 2.4rem;
-  font-weight: lighter;
-  color: lightgrey;
-}
-
-/* Content-Elements */
-/* line 105, ../sass/globals.scss */
-.fixfloat {
-  clear: both;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined operation: \"strip-unit(1.3) times 10\".\A         on line 17 of B:/studium/semester_8/IAM/theProject/css/sass/snmmixins/_common.scss, in `rem-fallback'\A         from line 34 of B:/studium/semester_8/IAM/theProject/css/sass/globals.scss"; }
