@@ -11,137 +11,141 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 <body>
-    <header><h1>Die Umsiedlerin</h1>
-        <nav id="breadcrumb"><a href="">zurück</a></nav>
+    <header>
+        <nav id="breadcrumb"><a href="JavaScript:history.back()"><< ZURÜCK</a></nav>
+        <h1>Die Umsiedlerin</h1>
     </header>
 
-    <!-- main content of the page = main section //-->
-    <main>
-        <h2 class="accessibility">Content</h2>
-        <!-- we use id for identification of unique elements //-->
-        <article id="timedocuments">
-            <header><h2>Zeitdokumente</h2></header>
-            <figure><img src="media/img.jpg" alt="Cover des Programmhefts zur Uraufführung" title="Programmheft">
-                <figcaption>Programmheft zur Uraufführung</figcaption>
-            </figure>
-        </article>
+    <div id="page">
+        <!-- main content of the page = main section //-->
+        <main>
+            <h2 class="accessibility">Content</h2>
+            <!-- we use id for identification of unique elements //-->
+            <article id="timedocuments">
+                <header><h2>Zeitdokumente</h2></header>
+                <figure><img src="media/img.jpg" alt="Cover des Programmhefts zur Uraufführung" title="Programmheft">
+                    <figcaption>Programmheft zur Uraufführung</figcaption>
+                </figure>
+            </article>
 
-        <article id="images">
-            <header></header>
-            <figure>
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <figcaption></figcaption>
-            </figure>
-            <button><span class="accessibilty">close</span></button>
-        </article>
+            <article id="images">
+                <header></header>
+                <figure>
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <figcaption></figcaption>
+                </figure>
+                <button><span class="accessibilty">close</span></button>
+            </article>
 
-        <article id="meaning">
-            <header><h2>Die Umsiedlerin oder das Leben auf dem Lande</h2></header>
-            <p>
-                Heiner Müllers Stück spannt einen historischen Bogen von der Bodenreform 1945 bis zur Kollektivierung und Bildung der landwirtschaftlichen
-            </p>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="" target="" title="Hier den gesamten Kommentar lesen"><span></span>weiterlesen</a>
-                    </li>
-                </ul>
-            </nav>
-        </article>
+            <article id="meaning">
+                <header><h2>Die Umsiedlerin oder das Leben auf dem Lande</h2></header>
+                <p>
+                    Heiner Müllers Stück spannt einen historischen Bogen von der Bodenreform 1945 bis zur Kollektivierung und Bildung der landwirtschaftlichen
+                </p>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="" target="" title="Hier den gesamten Kommentar lesen"><span></span>weiterlesen</a>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
 
-        <article id="from_content">
-            <header><h2>Textauszug</h2></header>
-            <style>
+            <article id="from_content">
+                <header><h2>Textauszug</h2></header>
+                <style>
 
-                /* temporary */
-                dt{
-                    clear:left;
-                    float:left;
-                }
-                dt{
-                    float:left;
-                }
+                    /* temporary */
+                    dt{
+                        clear:left;
+                        float:left;
+                    }
+                    dt{
+                        float:left;
+                    }
 
-                .acteurOne, .acteurTwo{
-                    padding-right:4px; /* IE Fallback */
-                    padding-right: 0.25rem;
-                }
-                .acteurOne:before{
-                    content: 'FONDRAK';
-                }
-                .acteurTwo:before{
-                    content: 'NIET';
-                }
-                .noneActeur + dd{
-                    font-style: italic;
-                    margin-left:0;
-                }
-            </style>
-            <dl class="dialog">
-                <dt class="noneActeur"></dt>
-                <dd>14</dd>
-                <dt class="noneActeur"></dt>
-                <dd>Kate</dd>
-                <dt class="noneActeur"></dt>
-                <dd>Niet, Fondrak</dd>
-                <dt class="acteurOne"></dt>
-                <dd>Ich geh zum Amerikaner. gehst du mit?</dd>
-                <dt class="acteurTwo"></dt>
-                <dd>Ich bleib wo ich was krieg</dd>
-                <dt class="acteurOne"></dt>
-                <dd>Scheiß drauf. Das düngt</dd>
-                <dt class="noneActeur"></dt>
-                <dd>Pause</dd>
-            </dl>
-            <span></span>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="" target="" title="Hier den gesamten Text lesen"><span></span>weiterlesen</a>
-                    </li>
-                </ul>
-            </nav>
-        </article>
-    </main>
-    <!-- additional Information //-->
-    <aside>
-        <section id="comments">
-            <h3>Kommentar</h3>
-            <nav id="comments_nav">
-                <ul>
-                    <li>
-                        <a href="" target="" title="Zum Kommentar">Hochschule für Ökonomie</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section id="multimedia">
-            <h3>Filme und Audio</h3>
-            <!-- its just a link list ... //-->
-            <nav id="multimedia_nav">
-                <ul>
-                    <li>
-                        <a href="" target="" titel="Zum Video: Über Tier und Menschen"><span></span>Über Tiere und Menschen</a>
-                    </li>
-                    <li>
-                        <a href="" target="" title="Zum Audio: Demo Alexanderplatz 1989"><span></span>Demo Alexanderplatz 1989</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section id="fwd">
-            <header><h3>Mehr dazu unter</h3></header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="" target="" title="Mehr spannende und interssante Informationen zum Thema"><span></span>Ort</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-    </aside>
+                    .acteurOne, .acteurTwo{
+                        padding-right:4px; /* IE Fallback */
+                        padding-right: 0.25rem;
+                    }
+                    .acteurOne:before{
+                        content: 'FONDRAK';
+                    }
+                    .acteurTwo:before{
+                        content: 'NIET';
+                    }
+                    .noneActeur + dd{
+                        font-style: italic;
+                        margin-left:0;
+                    }
+                </style>
+                <dl class="dialog">
+                    <dt class="noneActeur"></dt>
+                    <dd>14</dd>
+                    <dt class="noneActeur"></dt>
+                    <dd>Kate</dd>
+                    <dt class="noneActeur"></dt>
+                    <dd>Niet, Fondrak</dd>
+                    <dt class="acteurOne"></dt>
+                    <dd>Ich geh zum Amerikaner. gehst du mit?</dd>
+                    <dt class="acteurTwo"></dt>
+                    <dd>Ich bleib wo ich was krieg</dd>
+                    <dt class="acteurOne"></dt>
+                    <dd>Scheiß drauf. Das düngt</dd>
+                    <dt class="noneActeur"></dt>
+                    <dd>Pause</dd>
+                </dl>
+                <span></span>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="" target="" title="Hier den gesamten Text lesen"><span></span>weiterlesen</a>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+        </main>
+        <!-- additional Information //-->
+        <aside>
+            <section id="comments">
+                <h3>Kommentar</h3>
+                <nav id="comments_nav">
+                    <ul>
+                        <li>
+                            <a href="" target="" title="Zum Kommentar">Hochschule für Ökonomie</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="multimedia">
+                <h3>Filme und Audio</h3>
+                <!-- its just a link list ... //-->
+                <nav id="multimedia_nav">
+                    <ul>
+                        <li>
+                            <a href="" target="" titel="Zum Video: Über Tier und Menschen"><span></span>Über Tiere und Menschen</a>
+                        </li>
+                        <li>
+                            <a href="" target="" title="Zum Audio: Demo Alexanderplatz 1989"><span></span>Demo Alexanderplatz 1989</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="fwd">
+                <header><h3>Mehr dazu unter</h3></header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="" target="" title="Mehr spannende und interssante Informationen zum Thema"><span></span>Ort</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <div class="fixfloat"></div>
+    </div>
     <footer>
         <nav id="mainnav">
             <h2 class="accessibilty">Navigation></h2>
