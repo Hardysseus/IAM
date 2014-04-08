@@ -7,6 +7,35 @@
   zoom: 1;
 }
 
+// Enter a base pixel size in px (without the px)
+$base-font-size: $FS_CONTENT;
+
+@function strip-unit($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+@function U($target, $context: $base-font-size) {
+  @if strip-unit($target) == 0 { @return 0 }
+  @return strip-unit($target) / strip-unit($context) * 1em;
+}
+
+@function U4($target1, $target2, $target3, $target4, $context: $base-font-size) {
+  @return U($target1, $context) U($target2, $context) U($target3, $context) U($target4, $context);
+}
+
+@function px($val){
+  @return strip-unit($val) * 1px;
+}
+
+@function percentage_to_float($percentage){
+  @return strip-unit($percentage / 100%);
+}
+
+@function float_to_percentage($float){
+  @return 100% * strip-unit($float);
+}
+
+
 @mixin rem-fallback($property, $values...) {
   $max: length($values);
   $pxValues: '';
